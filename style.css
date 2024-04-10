@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    background: black;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.squre{
+    background: rgb(51, 51, 51);
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    transition: 2s;
+}
+.squre:hover{
+    transition-duration: 0s;
+}
